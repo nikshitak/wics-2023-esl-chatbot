@@ -8,9 +8,12 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+/* logo css */
 .logo {
     font-family: 'Bungee', cursive;
     font-size: 30px;
+    text-decoration: none;
+    color: black;
 }
 
 .logo:hover {
@@ -21,10 +24,6 @@ body {
     font-size: 20px;
 }
 
-a {
-    text-decoration: none;
-    color: black;
-}
 
 /* BUTTON CODE MAIN PAGE*/
 .first {

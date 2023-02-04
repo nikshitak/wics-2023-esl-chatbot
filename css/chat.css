@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Signika:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+/* FRONT PAGE CSS */
+body {
+    background: #ffddd2;
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.logo {
+    font-family: 'Bungee', cursive;
+    font-size: 30px;
+}
+
+.logo:hover {
+    color: #006d77;
+}
+
+.description {
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* BUTTON CODE MAIN PAGE*/
+.first {
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 10px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 0 0 #ccc;
+    border-radius: 10px;
+    transition: box-shadow 300ms, color 300ms;
+}
+
+.first:hover {
+    color: #e29578;
+    box-shadow: 10px 10px 0 #e29578;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+    vertical-align: center;
+    flex-direction: column;
+}
+
+.title {
+    text-align: center;
+    vertical-align: middle;
+}

@@ -18,6 +18,13 @@ const completion = await openai.createCompletion({
 console.log(response);
 }
 
+const chatText = document.querySelector('.chat-input');
+
+chatText.addEventListener('input', function () {
+    this.style.height = 'auto';
+    this.style.height = (this.scrollHeight) + 'px';
+});
+
 runCompletion();
 
 

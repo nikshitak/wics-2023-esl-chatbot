@@ -27,4 +27,26 @@ chatText.addEventListener('input', function () {
 
 runCompletion();
 
+function myFunction() {
+  var x = document.getElementById("myText").value;
+  document.getElementById("demo").innerHTML = x;
+}
 
+function getInput () {
+  var input = document.getElementById("userInput").value;
+  alert(input);
+
+  getResponse(input); 
+}
+function getResponse(input){
+  var list = $('definition');
+  if (input === "word"){
+    list.append("a speech sound or series of speech sounds that symbolizes and communicates a meaning usually without being divisible into smaller units capable of independent use");
+  }
+  if (input === "LOL"){
+    list.append("laugh out loud; laughing out loud");
+  }
+  else {
+    list.append("that def doesn't exist"); 
+  }
+}
